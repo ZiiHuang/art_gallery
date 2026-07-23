@@ -1,0 +1,41 @@
+media:
+  input: images
+  output: images
+  categories:
+    - image
+
+content:
+  - name: artworks
+    label: Artworks
+    type: file
+    path: artworks.json
+    format: json
+
+    list:
+      min: 0
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: preview
+        label: Preview Image
+        type: image
+        required: true
+
+      - name: full
+        label: Full-resolution Link
+        type: string
+        required: true
+
+      - name: description
+        label: Description
+        type: text
+        required: false
