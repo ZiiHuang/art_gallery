@@ -10,32 +10,42 @@ content:
     type: file
     path: artworks.json
     format: json
-
-    list:
-      min: 0
+    list: true
 
     fields:
       - name: title
         label: Title
         type: string
         required: true
+        description: The title displayed beneath the artwork.
 
       - name: date
         label: Date
         type: date
         required: true
+        description: The date used to organize the artwork in the timeline.
 
       - name: preview
         label: Preview Image
         type: image
         required: true
+        description: Upload the smaller website preview image here.
+        options:
+          extensions:
+            - png
+            - jpg
+            - jpeg
+            - webp
+          rename: true
 
       - name: full
         label: Full-resolution Link
         type: string
         required: true
+        description: Paste the Google Drive link for the original full-resolution image.
 
       - name: description
         label: Description
         type: text
         required: false
+        description: Optional text displayed beneath the title.
