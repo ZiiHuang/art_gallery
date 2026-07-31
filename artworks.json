@@ -1,8 +1,14 @@
 [
   {
-    "title": "test",
-    "date": "2026-07-22",
-    "preview": "images/example1-1.png",
-    "full": "google.com"
+    "title": "Ada's Special Anniversary",
+    "date": "2026-07-25",
+    "preview": "images/ada-horsepreview.webp",
+    "full": "https://drive.google.com/file/d/1KcaLNAMFn0VGe5ZnhH1xEUHZdLAo8jgL/view?usp=drive_link"
+  },
+  {
+    "title": "Zelda's outing",
+    "date": "2026-07-18",
+    "preview": "images/zeldaphonepreview.webp",
+    "full": "https://drive.google.com/file/d/1fKx_bK0B_JK4Mbf3NHCXZ9LZZuENns3t/view?usp=drive_link"
   }
 ]
